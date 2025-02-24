@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal's Portfolio</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Resume</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <p>My name is <span class="purple">Vishal.</span></p>
+                <p>I am <span id="element"></span></p>
+                <div class="social-links">
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i
+                            class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="content">
+                    <button><a href="/">Hire Me</a></button>
+                </div>
+            </div>
+
+            <div class="rightsection">
+                <img src="img/pin.png" alt="Background Image">
+            </div>
+        </section>
+
+        <hr>
+        <section class="thirdsection">
+
+            <section>
+                <h3>Projects</h3>
+                <div class="projects">
+                    <div class="card">
+                        <h4>Log in Page</h4>
+                        <p>Developed an animated login form using HTML and CSS with an interactive user interface.
+                            Includes essential features like username and password input fields, 'Forgot Password'
+                            option, and a link to sign up. Designed for responsive user experience and easy integration
+                            into larger projects..</p>
+                        <a href="login page/log in page.html" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="projects">
+                    <div class="card">
+                        <h4>Gaming-Themed</h4>
+                        <p>Designed and developed a responsive website showcasing an interactive gaming-themed
+                            portfolio. The site includes dynamic navigation, a hero section with engaging visuals and
+                            text, and social media icons using external libraries like Boxicons and Remix Icons.
+                            Integrated Google Fonts for enhanced typography and ensured cross-browser compatibility.</p>
+                        <a href="god/god.html" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="projects">
+                    <div class="card">
+                        <h4>Digital Banking</h4>
+                        <p>Developed a responsive landing page for Easybank using HTML, CSS, and JavaScript. Implemented a dynamic navigation menu, interactive features, and a structured layout to enhance user experience.</p>
+                        <a href="easybank-landing-page-master/index.html" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h3>Contact</h3>
+                <div class="projects">
+                    <div class="card">
+                        <h4>Contact</h4>
+                        <p>Feel free to reach out for inquiries or collaborations.</p>
+                        <address>
+                            Email: <a href="mailto:info@example.com">info@example.com</a><br>
+                            Phone: <a href="tel:+1234567890">+1 234-567-890</a>
+                        </address>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <!-- Typed.js Script -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
